@@ -56,13 +56,13 @@ html,body {
     height: auto;
 }
 @media only screen and (max-width: 768px) {
-    html, body {
-        
+    body {
+        background-color: white !important; 
     }
+
     .login-screen {
         height: 100vh !important;
-        
-        margin: auto 0 !important; 
+        margin-top: 50vh auto 0 !important; 
     }
 }
 .parent {

@@ -128,6 +128,13 @@ color: #f7d31b;
     visibility: visible;
 
   }
+
+  .search {
+    margin: 7.5% 0;
+    margin-left: 5%;   
+    
+  }
+
   .navbar-center img {
 
     margin: 0 auto !important;
