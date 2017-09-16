@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="../css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="../css/style.css"> <!-- Resource style -->
+	<script src="../js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Dashboard</title>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><img src="../img/ILMlogo.png"></a>
+			<a class="navbar-center" href="#"><img src="../img/SortedAppLogo.png"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="#">Time 69:69</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a id="coach" href="#">Coaches Portal</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-log-out"></span></a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="row-1 col-sm-12">
+	<div class="video col-sm-6">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="../img/small.mp4"></iframe>
+		</div>
+	</div>
+
+	<div class="notes col-sm-6">
+		<div class="col-sm-12 notes-title">
+			<div>Notes for John Doe</div>
+		</div>
+		<div class="text">
+			<p id="text-by">
+				<i>17/08/2017 by : Jesus Man</i>
+			</p>
+			<p id="note">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend in neque eget tincidunt. Ut maximus, urna in aliquet ultrices, libero elit tincidunt diam, quis dapibus augue nulla a mi. Fusce eu diam sit amet dui lobortis vestibulum. In lectus quam, mollis at pellentesque ac, dignissim non elit. Duis id mollis massa. Donec imperdiet justo mauris, id fringilla eros fermentum eu. Morbi id hendrerit mi. Maecenas ullamcorper ipsum sit amet massa eleifend egestas. Cras scelerisque tristique mi, vitae gravida sem consectetur sed. In scelerisque congue mi at rhoncus. Suspendisse a nulla ac nisl tincidunt facilisis non at urna.
+			</p>
+			<div class="btns">
+				<button type="button" class="col-sm-4 btn" id="btn1">SAVE NOTES</button>
+				<button type="button" class="col-sm-4 btn" id="btn2">VIEW OLD NOTES</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cd-tabs col-sm-12">
+		<nav>
+			<ul class="cd-tabs-navigation">
+				<li><a data-content="inbox" href="#0">Student Details</a></li>
+				<li><a data-content="new" href="#0">Upload documents</a></li>
+
+			</ul> <!-- cd-tabs-navigation -->
+		</nav>
+
+		<ul class="cd-tabs-content">
+		<li data-content="inbox">
+
+			<div class="col-sm-12" id="TestResults">
+					<div class="input-group col-sm-8 col-md-offset-2">
+						<input type="text" class="form-control" placeholder="Enter phone no.">
+						<span class="input-group-btn chk">
+							<button class="btn btn-default" type="button">SUBMIT</button>
+				   		</span>
+					</div>
+
+					<div class="col-sm-12 text-left tablename">
+						YCQ Test Results
+					</div>
+
+					<div class="row drop-search col-xs-12">
+						<div class="dropdown col-sm-4 styled-select yellow">
+
+							<select id="soflow">
+								<option value="10">Showing 10 Entries</option>
+								<option value="25">Showing 25 entries</option>
+								<option value="all">Showing All entries</option>
+							</select>
+						</div>
+
+						<div class="search col-sm-3 col-md-offset-6">
+							<div class="input-group">
+								<input type="text" class="form-control">
+								<span class="input-group-btn chk">
+								<button class="btn btn-default" type="button">SEARCH</button>
+							</span>
+							</div>
+						</div>
+
+					</div>
+
+
+
+
+				<div class="table-responsive col-sm-12">
+				<div class="col-sm-12">
+
+					<table class="table table-bordered">
+						<thead>
+						<tr>
+							<th>#</th>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>Username</th>
+							<th>Active</th>
+							<th>Boss</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<th scope="row">1</th>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>@mdo</td>
+							<td><input type="checkbox" value=""></td>
+							<td><input type="radio" name="optradio"></td>
+						</tr>
+						<tr>
+							<th scope="row">2</th>
+							<td>Jacob</td>
+							<td>Thornton</td>
+							<td>@fat</td>
+							<td><input type="checkbox" value=""></td>
+							<td><input type="radio" name="optradio"></td>
+
+						</tr>
+						<tr>
+							<th scope="row">3</th>
+							<td>Larry</td>
+							<td>Bird</td>
+							<td>@twitter</td>
+							<td><input type="checkbox" value=""></td>
+							<td><input type="radio" name="optradio"></td>
+
+						</tr>
+
+						</tbody>
+
+					</table>
+					</div>
+				</div>
+
+					<div class="col-sm-12 text-left tablename">
+						Some Other Test Results
+					</div>
+
+					<div class="row drop-search col-xs-12">
+						<div class="dropdown col-sm-4 styled-select yellow">
+
+							<select >
+								<option value="10">Showing 10 Entries</option>
+								<option value="25">Showing 25 entries</option>
+								<option value="all">Showing All entries</option>
+							</select>
+						</div>
+
+						<div class="search col-sm-3 col-md-offset-6">
+							<div class="input-group">
+								<input type="text" class="form-control">
+								<span class="input-group-btn chk">
+								<button class="btn btn-default" type="button">SEARCH</button>
+							</span>
+							</div>
+						</div>
+
+					</div>
+
+
+
+
+					<div class="table-responsive col-sm-12">
+						<div class="col-sm-12">
+
+							<table class="table table-bordered">
+								<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+									<th>Active</th>
+									<th>Boss</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<th scope="row">1</th>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+									<td><input type="checkbox" value=""></td>
+									<td><input type="radio" name="optradio"></td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+									<td><input type="checkbox" value=""></td>
+									<td><input type="radio" name="optradio"></td>
+
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td>Larry</td>
+									<td>Bird</td>
+									<td>@twitter</td>
+									<td><input type="checkbox" value=""></td>
+									<td><input type="radio" name="optradio"></td>
+
+								</tr>
+
+								</tbody>
+
+							</table>
+						</div>
+
+					</div>
+			</div>
+			</li>
+
+			<li data-content="new">
+
+				<div class="col-sm-12" id="upload">
+					<div class="row text-center">
+						Drag and drop documents or click <a>here</a> to browse
+					</div>
+					<div class="upimg text-center">
+						<img src="../img/UploadImageIcon.png" class="uploadimage">
+					</div>
+				</div>
+				<div class="col-sm-12 form-tab">
+					<div class="row form-title text-center">
+						Please enter the following details to upload documents
+					</div>
+					<form>
+						<div class="form-group row">
+
+							<div class="col-sm-6 col-sm-offset-3">
+								<input type="text" class="form-control" id="inputName" placeholder="Counsellor Name">
+
+							</div>
+						</div>
+						<div class="form-group row">
+
+							<div class="col-sm-6 col-sm-offset-3">
+								<input type="text" class="form-control" id="inputNumber" placeholder="Student Mobile Number">
+							</div>
+						</div>
+
+						<div class="form-group row">
+
+							<div class="col-sm-6 col-sm-offset-3">
+								<input type="text" class="form-control" id="inputPurpose" placeholder="Name/Purpose of report">
+							</div>
+						</div>
+						<div class="form-group col-sm-4 col-sm-offset-4 row">
+							<button type="button" class="btn">Upload</button>
+						</div>
+					</form>
+				</div>
+
+			</li>
+
+		</ul> <!-- cd-tabs-content -->
+	</div> <!-- cd-tabs -->
+
+	<div class="col-sm-12 ">
+		<img src="../img/careersyoulove.png" class="limg">
+	</div>
+	<div class="col-sm-12 text-center footer">
+		Copyright &copy; I Love Mondays
+	</div>
+
+
+<script>
+    $(".dropdown-menu li a").click(function(){
+
+        $(".btn:first-child").html($(this).text()+' <span class="caret"></span>');
+
+    });
+
+
+
+</script>
+
+
+<script src="../js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

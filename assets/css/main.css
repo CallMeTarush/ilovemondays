@@ -1,0 +1,90 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Medium.ttf);
+}
+html,body {
+    background-color: #3e4d59;
+}
+.login-screen {
+    background-color: #101f2e !important;
+    margin-top: 2.5%;
+    padding: 0 !important;
+    font-family: poppins;
+}
+.title-bar {
+    height: 5%;
+    color: #f7d31b;
+    font-size: 2.2rem;
+}
+
+.form-group {
+    margin-top: 7.5%;
+    height: auto;
+}
+
+.fc {
+    padding: 5%;
+    border: 0;
+    margin-bottom: 7.5%;
+}
+.btn {
+    border-radius: 0;
+    background-color: #f7d31b;
+
+    display: block;
+    margin: 0 auto;
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e4d59;
+}
+.image-tab {
+
+    background-color: white;
+    height: auto;
+}
+.form-tab {
+    height: auto;
+}
+@media only screen and (max-width: 768px) {
+
+
+    .login-screen {
+        height: auto;
+    }
+}
+.parent {
+    margin: 2.5% 0;
+}
+#bigimg {
+    width:50%;
+    height:auto;
+    display: block;
+    margin: auto;
+
+}
+.login-btn {
+    text-align: center;
+    margin-bottom: 1%;
+}
+#smallimg {
+}
+.SortedAppLogo {
+    margin: 10px 0;
+    height: 10vw !important;
+    width: auto;
+}
+.Absolute-Center {
+    margin: 0 auto;
+    position: absolute;
+    top: 0; left: 0;
+}
