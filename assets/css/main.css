@@ -12,7 +12,7 @@ html,body {
     font-family: poppins;
 }
 .title-bar {
-    height: 5%;
+    height: auto;
     color: #f7d31b;
     font-size: 2.2rem;
 }
@@ -27,6 +27,7 @@ html,body {
     border: 0;
     margin-bottom: 7.5%;
 }
+
 .btn {
     border-radius: 0;
     background-color: #f7d31b;
@@ -60,9 +61,14 @@ html,body {
         background-color: white !important; 
     }
 
-    .login-screen {
-        height: 100vh !important;
-        margin-top: 50vh auto 0 !important; 
+    .ILMAppLogo {
+        height: 5vw !important;
+        width: auto;
+    }
+
+    .SortedAppLogo  {
+        height: 5vw !important;
+        width: auto;
     }
 }
 .parent {
@@ -84,14 +90,14 @@ html,body {
 .SortedAppLogo {
     margin: 10px 10px;
     float: right;
-    height: 7vw !important;
+    height: 3vw !important;
     width: auto;
 }
 
 .ILMAppLogo {
     margin: 10px 0 0 10px;
     float: left;
-    height: 7vw !important;
+    height: 3vw !important;
     width: auto;
 }
 .Absolute-Center {
